@@ -3,11 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #0B2447;
 }
 
 header {
-    background-color: #0000FF;
+    background-color: #19376D;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -16,10 +16,11 @@ header {
 main {
     padding: 2em;
     text-align: center;
+    color:#fff;
 }
 
 footer {
-    background-color: #333;       /* Color de fondo del pie de página */
+    background-color: #19376D;       /* Color de fondo del pie de página */
     color: #fff;                  /* Color de texto del pie de página */
     padding: 1em;                 /* Espaciado interno */
     text-align: center;           /* Alineación centrada */
