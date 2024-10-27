@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #0000FF;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -17,3 +17,35 @@ main {
     padding: 2em;
     text-align: center;
 }
+
+footer {
+    background-color: #333;       /* Color de fondo del pie de página */
+    color: #fff;                  /* Color de texto del pie de página */
+    padding: 1em;                 /* Espaciado interno */
+    text-align: center;           /* Alineación centrada */
+    position: relative;           /* Esto asegura que el pie de página esté en su lugar */
+    bottom: 0;                    /* Posición al final de la página */
+    width: 100%;                  /* Asegura que ocupe todo el ancho de la página */
+}
+
+/* Parallax */
+.parallax {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/1280px-NGC_4414_%28NASA-med%29.jpg'); /* Cambia a la URL de tu imagen */
+    height: 400px;                           /* Altura de la sección */
+    background-attachment: fixed;            /* Fija el fondo para parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.parallax-content {
+    background: rgba(0, 0, 0, 0.5);          /* Fondo semitransparente para texto */
+    padding: 20px;
+    border-radius: 10px;
+}
+
