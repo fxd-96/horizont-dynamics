@@ -31,7 +31,7 @@ footer {
 
 /* Parallax */
 .parallax {
-    background-image: url('https://en.wikipedia.org/wiki/Galaxy#/media/File:Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg'); /* Cambia a la URL de tu imagen */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg/1024px-Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg'); /* Cambia a la URL de tu imagen */
     height: 400px;                           /* Altura de la sección */
     background-attachment: fixed;            /* Fija el fondo para parallax */
     background-position: center;
