@@ -1,8 +1,3 @@
 # easy-page
-//description unavailable
+//description 
 
-
-//Agregando valor al ReadMe!
-//dec
-
-this is a website. to try github as hoster
