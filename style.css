@@ -3,11 +3,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0B2447;
+    background: linear-gradient(
+        to bottom,
+        #0B2447,    /* Azul oscuro */
+        #1E3859,    /* Azul medio */
+        #3D546B     /* Azul más claro */
+    );
+    color: #fff; /* Asegura que el texto sea legible sobre el fondo */
 }
 
 header {
-    background-color: #FFFFF;
+    background-color: #FFFFFF; /* Ajustado para ser blanco completo */
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -16,7 +22,7 @@ header {
 main {
     padding: 2em;
     text-align: center;
-    color:#fff;
+    color: #fff;
 }
 
 footer {
@@ -49,4 +55,3 @@ footer {
     padding: 20px;
     border-radius: 10px;
 }
-
