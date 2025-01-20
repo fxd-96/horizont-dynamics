@@ -5,9 +5,9 @@ body {
     padding: 0;
     background: linear-gradient(
         to bottom,
-        #0B2447,    /* Azul oscuro */
-        #1E3859,    /* Azul medio */
-        #3D546B     /* Azul más claro */
+        #FF7E5F,  /* Naranja brillante */
+        #FD3A69,  /* Rosa fuerte */
+        #6A0572   /* Púrpura oscuro */
     );
     color: #fff; /* Asegura que el texto sea legible sobre el fondo */
 }
